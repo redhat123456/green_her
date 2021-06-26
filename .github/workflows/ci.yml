@@ -18,7 +18,6 @@ jobs:
         run: |
           git config --local user.email "1907065810@qq.com"
           git config --local user.name "redhat123456"
-          git config --global http.proxy http://127.0.0.1:7890 git config --global https.proxy http://127.0.0.1:7890
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
           git commit --allow-empty -m "a commit a day keeps your girlfriend away"
