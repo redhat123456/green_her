@@ -1,3 +1,5 @@
+这玩意于2021年11月8日停止使用
+
 # auto-green
 
 [![Build Status](https://github.com/justjavac/auto-green/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/auto-green/actions)
